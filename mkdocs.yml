@@ -1,0 +1,56 @@
+site_name: Flame — Документация
+
+repo_url: https://github.com/Flame-Developers/Flame
+repo_name: Flame-Developers/Flame
+copyright: Copyright &copy; 2020 - 2021 TheFerryn
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    scheme: slate
+    accent: deep orange
+  language: 'ru'
+  logo: assets/flame.svg
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.sections
+    - navigation.tabs
+    - navigation.sections
+    - navigation.sections
+    - navigation.expand
+plugins:
+  - search:
+      lang: ru
+extra:
+  homepage: https://flamebot.ru
+  social:
+    - icon: material/web
+      link: https://flamebot.ru
+    - icon: fontawesome/brands/github
+      link: https://github.com/Flame-Developers/Flame
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/flamedev
+    - icon: fontawesome/brands/vk
+      link: https://vk.com/flamediscord
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/7FUJPRCsw8
+nav:
+  - 'Введение': 'index.md'
+  - 'Вызов команд': 'commands.md'
+  - 'Настройка бота':
+      - 'Базовые настройки': 'settings/base.md'
+      - 'Продвинутые настройки': 'settings/config.md'
+      - 'Участники':
+          - 'Приветствие участников': 'settings/members/welcomer.md'
+          - 'Прощание с участниками': 'settings/members/leaver.md'
+          - 'Автоматические роли': 'settings/members/autorole.md'
+      - 'Экономика':
+          - 'Введение': 'settings/economy/intro.md'
+          - 'Продвинутая настройка':
+              - 'Пользовательские кирки/удочки': 'settings/economy/advanced/rods-and-pickaxes.md'
+              - 'Пользовательский транспорт': 'settings/economy/advanced/transport.md'
+  - 'Часто задаваемые вопросы': 'faq.md'

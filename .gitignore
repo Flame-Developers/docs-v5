@@ -1,0 +1,8 @@
+# Useless directories
+.idea/
+.vscode/
+site/
+
+# Logs
+logs/
+*.log

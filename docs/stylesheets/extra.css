@@ -1,0 +1,7 @@
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: var(--md-footer-bg-color);
+    --md-default-bg-color: #272c33;
+}
+a {
+    color: white !important;
+}
